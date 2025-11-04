@@ -1,0 +1,35 @@
+name: Deploy React App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Esegui il deploy quando fai push su main
+  workflow_dispatch:  # Permette di avviare manualmente il workflow
+
+permissions:
+  contents: write  # Necessario per scrivere sul branch gh-pages
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20  # o la versione che usi nel progetto
+
+      - name: Install dependencies
+        run: npm install # o npm install, se non usi lockfile
+
+      - name: Build React app
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build  # cartella di output di React
