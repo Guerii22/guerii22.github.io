@@ -1,28 +1,40 @@
-import { Route, Routes, useLocation } from 'react-router';
-import './App.css';
 import Home from './Home';
-import { Personaggi } from './personaggi/Personaggi';
+import { Personaggi } from './Personaggi';
 import { AppBar, Box, Button, Stack } from '@mui/material';
+import { useState } from 'react';
+import { Comandi } from './Comandi';
 
 function App() {
-  const location = useLocation()
+  const [location, setLocation] = useState('/')
 
   return <Box>
     <AppBar elevation={0} position='static' sx={{ backgroundColor: '#0000002b' }}>
       <Box padding={2}>
         <Stack direction='row' gap={6}>
-          <Button sx={{ fontFamily: 'sans-serif' }} variant={ location.pathname === '/'? 'contained' : 'text' } href='/'>Home</Button>
-          <Button sx={{ fontFamily: 'sans-serif' }} variant={ location.pathname === '/personaggi'? 'contained' : 'text' } href='/personaggi'>Personaggi</Button>
+          <Button sx={{ fontFamily: 'sans-serif' }} variant={location === '/' ? 'contained' : 'text'} onClick={() => setLocation('/')}>Home</Button>
+          <Button sx={{ fontFamily: 'sans-serif' }} variant={location === '/personaggi' ? 'contained' : 'text'} onClick={() => setLocation('/personaggi')}>Personaggi</Button>
+          <Button sx={{ fontFamily: 'sans-serif' }} variant={location === '/comandi' ? 'contained' : 'text'} onClick={() => setLocation('/comandi')}>Comandi</Button>
+
         </Stack>
       </Box>
     </AppBar>
 
-    <Routes>
-      <Route path='/' Component={Home} />
-      <Route path='/personaggi' Component={Personaggi} />
-    </Routes>
+    {renderLocation(location, setLocation)}
 
   </Box>
+}
+
+function renderLocation(location, setLocation) {
+  switch (location) {
+    case '/':
+      return <Home setLocation={setLocation} />
+    case '/personaggi':
+      return <Personaggi />
+    case '/comandi':
+      return <Comandi />
+    default:
+      return <Home setLocation={setLocation} />
+  }
 }
 
 export default App;

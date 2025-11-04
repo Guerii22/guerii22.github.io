@@ -10,7 +10,7 @@ export function Hero({ scopriRef }) {
             </Stack>
                 <Stack gap={6}>
                     <Button onClick={() => scopriRef.current.scrollIntoView()} size='large' variant='contained' sx={{ fontFamily: 'sans-serif', boxShadow: '0px 0px 20px #00000084' }}>Scopri di più</Button>
-                    <Button size='large' variant='contained' sx={{ fontFamily: 'sans-serif', boxShadow: '0px 0px 20px #00000084' }}>Scarica</Button>
+                    <Button size='large' variant='contained' sx={{ fontFamily: 'sans-serif', boxShadow: '0px 0px 20px #00000084' }} href='/don-chisciotte.zip'>Scarica</Button>
                 </Stack>
         </Stack>
     </Box>

@@ -1,13 +1,13 @@
-import './App.css';
 import { Hero } from './Hero';
 import { Footer } from './Footer';
-import { Box, Button, Container, Paper, Stack, Typography } from '@mui/material';
+import { Box, Button, Card, Container, Paper, Stack, Typography } from '@mui/material';
+import Tilt from 'react-parallax-tilt';
 
 import { ReactLenis, useLenis } from 'lenis/react'
 import { useRef } from 'react';
 
-function Home() {
-  useLenis(() => {})
+function Home({ setLocation }) {
+  useLenis(() => { })
 
   const scopriRef = useRef(null)
 
@@ -17,10 +17,30 @@ function Home() {
       <ReactLenis root />
       <Box>
         <Hero scopriRef={scopriRef} />
-        <Box sx={{ paddingY: 12, backgroundColor: (theme) => theme.palette.background.default }}>
+        <Box  ref={scopriRef} sx={{ paddingY: 12, backgroundColor: (theme) => theme.palette.background.default }}>
+          <Container>
+            <Tilt tiltReverse>
+
+              <Card elevation={6} variant='outlined' sx={{ padding: 6 }}>
+                <Stack direction='column' alignItems='center' justifyContent='center' gap={2}>
+                  <Typography display='flex' color='info' variant='h2'>Introduzione</Typography>
+                  <br />
+                  <Typography textAlign='center' fontFamily='sans-serif'>
+                    Don Chisciotte, ormai completamente immerso nei suoi sogni da cavaliere, arriva con il suo scudiero Sancho Panza davanti a quello che, secondo lui, è un luogo pieno di pericoli: un bordello. Per il cavaliere, che vede solo la realtà delle sue fantasie, questo posto non è altro che un covo di cattivi e buoni da essere salvati. Don Chisciotte lo immagina come un nascondiglio di ingiustizie, dove donne innocenti sono trattate male e devono essere protette.
+                    Non appena entra, il cavaliere pensa di dover difendere delle donne in pericolo, trasformando quello che è un semplice bordello in una scena di battaglia. La sua mente è talmente distorta che non vede la realtà, e per lui, le donne che si trovano lì sono principesse prigioniere, vittime di uomini cattivi. Senza pensarci due volte, Don Chisciotte si prepara a combattere contro chiunque gli sembri un nemico per difendere l'onore e la dignità di quelle che lui vede come innocenti.
+                    Sancho Panza, che capisce benissimo la realtà, cerca di far ragionare il suo padrone, ma Don Chisciotte non ne vuole sapere.
+
+                  </Typography>
+                </Stack>
+              </Card>
+            </Tilt>
+
+          </Container>
+          <br />
+          <br />
           <Container>
             <Stack direction='row' alignItems='center' gap={12}>
-              <Box ref={scopriRef}>
+              <Box >
                 <Typography display='flex' alignItems='end' variant='h3'>Livello&nbsp;<Typography color='primary' variant='h2' fontFamily='Times New Romans'>I</Typography>&nbsp;- Un Cavaliere al Motel </Typography>
                 <br />
                 <Typography fontFamily='sans-serif'>
@@ -66,9 +86,9 @@ function Home() {
         <Paper sx={{ paddingY: 12, borderRadius: 0 }}>
           <Container>
             <Stack direction='row' gap={12} alignItems='center' justifyContent='space-around'>
-                <Button sx={{ fontFamily: 'sans-serif' }} size='large' variant='outlined'>Comandi</Button>
-                <Typography>Scegli come vuoi proseguire</Typography>
-                <Button sx={{ fontFamily: 'sans-serif' }} size='large' variant='outlined' href='/personaggi'>Personaggi</Button>
+              <Button sx={{ fontFamily: 'sans-serif' }} size='large' variant='outlined' onClick={() => setLocation('/comandi')}>Comandi</Button>
+              <Typography>Scegli come vuoi proseguire</Typography>
+              <Button sx={{ fontFamily: 'sans-serif' }} size='large' variant='outlined' onClick={() => setLocation('/personaggi')}>Personaggi</Button>
             </Stack>
           </Container>
         </Paper>
