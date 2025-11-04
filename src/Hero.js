@@ -1,4 +1,4 @@
-import { Box, Button, Card, Stack, Typography } from '@mui/material'
+import { Box, Button, Stack, Typography } from '@mui/material'
 
 export function Hero({ scopriRef }) {
     return <Box>

@@ -1,9 +1,8 @@
-import { BrowserRouter, Link, Route, Routes, useLocation } from 'react-router';
+import { Route, Routes, useLocation } from 'react-router';
 import './App.css';
 import Home from './Home';
 import { Personaggi } from './personaggi/Personaggi';
-import { AppBar, Box, Button, Stack, Tooltip } from '@mui/material';
-import { useState } from 'react';
+import { AppBar, Box, Button, Stack } from '@mui/material';
 
 function App() {
   const location = useLocation()

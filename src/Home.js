@@ -2,14 +2,12 @@ import './App.css';
 import { Hero } from './Hero';
 import { Footer } from './Footer';
 import { Box, Button, Card, Container, Paper, Stack, Typography } from '@mui/material';
-import { Blocco } from './Blocco';
 
 import { ReactLenis, useLenis } from 'lenis/react'
 import { useRef } from 'react';
 
 function Home() {
-  const lenis = useLenis((lenis) => {
-  })
+  useLenis(() => {})
 
   const scopriRef = useRef(null)
 
@@ -32,7 +30,7 @@ function Home() {
 
                 </Typography>
               </Box>
-              <img width='30%' src='/sfondo_levels.png' />
+              <img alt='' width='30%' src='/sfondo_levels.png' />
             </Stack>
 
           </Container>
@@ -48,7 +46,7 @@ function Home() {
                   Quando le pecore, spaventate, si disperdono nel campo, Don Chisciotte si sente come un eroe che ha appena vinto una grande battaglia, anche se, in realtà, non c'era nessun nemico da sconfiggere. Sancho non può fare a meno di ridere della situazione, ma cerca di non farlo vedere, mentre cerca di riportare il suo padrone alla realtà.
                 </Typography>
               </Box>
-              <img src='https://i.redd.it/p5l6eqp08t541.png' width={400} />
+              <img alt='' src='https://i.redd.it/p5l6eqp08t541.png' width={400} />
             </Stack>
           </Container>
         </Paper>
