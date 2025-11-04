@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.665486d8.css",
-    "main.js": "/static/js/main.0c0ff52f.js",
+    "main.js": "/static/js/main.48f7584c.js",
     "static/js/453.1d4631dd.chunk.js": "/static/js/453.1d4631dd.chunk.js",
     "static/media/AncientModernTales.ttf": "/static/media/AncientModernTales.4b8003f082e32ed5b07d.ttf",
     "index.html": "/index.html",
     "main.665486d8.css.map": "/static/css/main.665486d8.css.map",
-    "main.0c0ff52f.js.map": "/static/js/main.0c0ff52f.js.map",
+    "main.48f7584c.js.map": "/static/js/main.48f7584c.js.map",
     "453.1d4631dd.chunk.js.map": "/static/js/453.1d4631dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.665486d8.css",
-    "static/js/main.0c0ff52f.js"
+    "static/js/main.48f7584c.js"
   ]
 }
