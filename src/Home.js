@@ -1,7 +1,7 @@
 import './App.css';
 import { Hero } from './Hero';
 import { Footer } from './Footer';
-import { Box, Button, Card, Container, Paper, Stack, Typography } from '@mui/material';
+import { Box, Button, Container, Paper, Stack, Typography } from '@mui/material';
 
 import { ReactLenis, useLenis } from 'lenis/react'
 import { useRef } from 'react';

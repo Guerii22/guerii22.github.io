@@ -1,4 +1,4 @@
-import { Box, Card, CardContent, CardMedia, Container, Grid, Typography } from "@mui/material";
+import { Box, Card, CardContent, CardMedia, Container, Typography } from "@mui/material";
 import { Masonry } from '@mui/lab'
 import { useState } from "react";
 
