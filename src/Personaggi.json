@@ -6,7 +6,7 @@
     },
     {
         "nome": "Sancho Panza",
-        "sprite": "/player_idle_down_1.png",
+        "sprite": "/sancho.png",
         "descrizione": "Sancho cerca di aprire gli occhi Don Chisciotte con il buon senso, ma finisce per essere trascinato nel mondo fantastico del suo padrone."
     }
 ]
