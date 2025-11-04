@@ -1,12 +1,27 @@
 [
-    {
-        "nome": "Don Chisciotte",
-        "sprite": "/player_idle_down_1.png",
-        "descrizione": "Don Chisciotte è un idealista puro ed convinto che la sua missione sia quella di portare la giustizia nel mondo, anche se la realtà intorno a lui è diversa da come la vede."
-    },
-    {
-        "nome": "Sancho Panza",
-        "sprite": "/player_idle_down_1.png",
-        "descrizione": "Sancho cerca di aprire gli occhi Don Chisciotte con il buon senso, ma finisce per essere trascinato nel mondo fantastico del suo padrone."
-    }
+  {
+    "nome": "Muoviti Avanti",
+    "sprite": "",
+    "descrizione": "Utilizza il tasto 'W' per spostati in avanti."
+  },
+  {
+    "nome": "Muoviti Indietro",
+    "sprite": "",
+    "descrizione": "Utilizza il tasto 'S' spostati in dietro."
+  },
+  {
+    "nome": "Muoviti a Destra",
+    "sprite": "",
+    "descrizione": "Utilizza il tasto 'D' spostati a destra."
+  },
+  {
+    "nome": "Muoviti a Sinistra",
+    "sprite": "",
+    "descrizione": "Utilizza il tasto 'A' spostati a sinistra."
+  },
+  {
+    "nome": "Attacca Nemico",
+    "sprite": "",
+    "descrizione": "Utilizza il tasto destro del mouse per attaccare."
+  }
 ]
