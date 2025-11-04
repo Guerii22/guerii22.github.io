@@ -23,7 +23,7 @@ jobs:
           node-version: 20  # o la versione che usi nel progetto
 
       - name: Install dependencies
-        run: npm ci  # o npm install, se non usi lockfile
+        run: npm install # o npm install, se non usi lockfile
 
       - name: Build React app
         run: npm run build
