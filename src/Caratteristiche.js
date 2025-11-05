@@ -19,7 +19,7 @@ export function Caratteristiche() {
                 {CaratteristicheList.map((personaggio, index) => <Caratteristica {...personaggio} index={index} />)}
             </Masonry>
         </Container>
-    </Bo>x>
+    </Box>
     
 }
 
