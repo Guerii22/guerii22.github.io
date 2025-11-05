@@ -5,7 +5,7 @@ import Tilt from 'react-parallax-tilt';
 import ComandiList from './Comandi.json'
 
 export function Comandi() {
-    return <Box sx={{ backgroundImage: 'url(/commands.png)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+    return <Box sx={{ backgroundImage: 'url(/controlli.jpg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
         <Container>
             <br />
             <br />
@@ -44,7 +44,7 @@ function Comando(comando) {
         </Box>
         <CardMedia
             component="img"
-            sx={{ paddingY: 2, paddingX: 6 }}
+            sx={{ paddingY: 2, paddingX: 6, height: 150, width: 150 }}
             image={comando.sprite}
         />
     </Card></Tilt>
