@@ -1,5 +1,10 @@
 [
   {
+    "nome": "Attacca Nemico",
+    "sprite": "",
+    "descrizione": "Utilizza il tasto destro del mouse per attaccare."
+  },
+  {
     "nome": "Muoviti Avanti",
     "sprite": "",
     "descrizione": "Utilizza il tasto 'W' per spostati in avanti."
@@ -18,10 +23,5 @@
     "nome": "Muoviti a Sinistra",
     "sprite": "",
     "descrizione": "Utilizza il tasto 'A' spostati a sinistra."
-  },
-  {
-    "nome": "Attacca Nemico",
-    "sprite": "",
-    "descrizione": "Utilizza il tasto destro del mouse per attaccare."
   }
 ]

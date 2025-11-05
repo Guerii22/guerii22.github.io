@@ -2,16 +2,21 @@
   {
     "nome": "Don Chisciotte",
     "sprite": "/don_chisciotte.png",
-    "descrizione": "Don Chisciotte è un idealista puro ed convinto che la sua missione sia quella di portare la giustizia nel mondo, anche se la realtà intorno a lui è diversa da come la vede."
+    "descrizione": "Don Chisciotte è un nobile di campagna, un povero, che vive nella Mancia e passa le sue giornate a leggere storie di cavalieri. Legge così tanto che alla fine impazzisce e si convince che la sua missione sia quella di portare la giustizia nel mondo e far tornare di moda i vecchi valori cavallereschi. Peccato che il mondo intorno a lui non sia per niente come se lo immagina lui. La sua testa è così piena di follia che vede pericoli e mostri dove non ci sono. L'abbiamo scelto perchè è il personaggio principale della nostra vicenda,colui che combatte e affronta i nemici."
   },
   {
     "nome": "Sancho Panza",
     "sprite": "/sancho.png",
-    "descrizione": "Sancho cerca di aprire gli occhi Don Chisciotte con il buon senso, ma finisce per essere trascinato nel mondo fantastico del suo padrone."
+    "descrizione": "Sancho cerca di far ragionare Don Chisciotte con il suo buon senso, ma finisce sempre per farsi trascinare nel mondo pazzo del suo padrone. A volte ci casca anche lui e vede le stesse illusioni, altre volte invece è l'unico che ha ancora i piedi per terra. L'abbiamo scelto come “Oggetto utilizzabile” che fornisce suggerimenti al nostro protagonista perché nella storia è colui che cerca di far ragionare il cavaliere."
   },
   {
-    "nome": "Nemico",
-    "sprite": "nemico.png",
-    "descrizione": "Descrizione"
+    "nome": "Nemico Aggressivo",
+    "sprite": "nemico_aggressivo.png",
+    "descrizione": "Li abbiamo fatti semplici, senza troppi dettagli, perché così ci si può concentrare sull'azione del gioco e poichè inoltre nella testa di Don Chisciotte i nemici sono più idee che persone vere."
+  },
+  {
+    "nome": "Nemico Passivo",
+    "sprite": "nemico_passivo.png",
+    "descrizione": "Li abbiamo fatti semplici, senza troppi dettagli, perché così ci si può concentrare sull'azione del gioco e poichè inoltre nella testa di Don Chisciotte i nemici sono più idee che persone vere."
   }
 ]
