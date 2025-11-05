@@ -1,6 +1,6 @@
 [
   {
     "nome": "Caratteristiche",
-    "descrizione": "Il nostro videogioco è un RPG d'avventura in 2D, fatto tutto in Python usando la libreria Pygame.\n L'avventura si svolge in tre ambientazioni diverse, ognuna corrispondente a un livello del gioco, che rappresenta una tappa simbolica del viaggio del protagonista.\nAspetti tecnici:\n- Motore di sviluppo: Pygame (Python) \n - Stile grafico: 2D pixel art \n- Modalità di gioco: Avventura con un po' di elementi RPG (il personaggio progredisce, ha punti vita, infligge danni) \n- Colonna sonora e effetti sonori:\n - Controlli: tastiera per muoversi e combattere"
+    "descrizione": "Il nostro videogioco è un RPG d'avventura in 2D, fatto tutto in Python usando la libreria Pygame.<br> <br> L'avventura si svolge in tre ambientazioni diverse, ognuna corrispondente a un livello del gioco, che rappresenta una tappa simbolica del viaggio del protagonista. <br> Aspetti tecnici: <br> <br> - Motore di sviluppo: Pygame (Python) <br> - Stile grafico: 2D pixel art <br> - Modalità di gioco: Avventura con elementi RPG (il personaggio progredisce, ha punti vita, infligge danni) <br> - Controlli: tastiera e mouse per muoversi e combattere"
   }
 ]

@@ -38,7 +38,7 @@ function Personaggio(personaggio) {
                     component="div"
                     sx={{ color: 'text.secondary' }}
                 >
-                    {personaggio.descrizione}
+                    <div dangerouslySetInnerHTML={{__html: personaggio.descrizione}} />
                 </Typography>
             </CardContent>
         </Box>
