@@ -1,27 +1,27 @@
 [
   {
     "nome": "Attacca Nemico",
-    "sprite": "Click Destro",
+    "sprite": "/click.jpg",
     "descrizione": "Utilizza il tasto destro del mouse per attaccare."
   },
   {
     "nome": "Muoviti Avanti",
-    "sprite": "W",
+    "sprite": "/W.jpg",
     "descrizione": "Utilizza il tasto 'W' per spostati in avanti."
   },
   {
     "nome": "Muoviti Indietro",
-    "sprite": "S",
+    "sprite": "/S.jpg",
     "descrizione": "Utilizza il tasto 'S' spostati in dietro."
   },
   {
     "nome": "Muoviti a Destra",
-    "sprite": "D",
+    "sprite": "/D.jpg",
     "descrizione": "Utilizza il tasto 'D' spostati a destra."
   },
   {
     "nome": "Muoviti a Sinistra",
-    "sprite": "A",
+    "sprite": "/A.jpg",
     "descrizione": "Utilizza il tasto 'A' spostati a sinistra."
   }
 ]

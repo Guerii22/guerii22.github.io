@@ -44,7 +44,7 @@ function Personaggio(personaggio) {
         </Box>
         <CardMedia
             component="img"
-            sx={{ paddingY: 2, paddingX: 6 }}
+            sx={{ paddingY: 2, paddingX: 6, height: 500, width: 300 }}
             image={personaggio.sprite}
         />
     </Card>

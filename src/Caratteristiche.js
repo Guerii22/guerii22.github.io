@@ -5,7 +5,7 @@ import Tilt from 'react-parallax-tilt';
 import CaratteristicheList from './Caratteristiche.json'
 
 export function Caratteristiche() {
-    return <Box sx={{ backgroundImage: 'url(/commands.png)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+    return <Box sx={{ backgroundImage: 'url(/caratteristiche.webp)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
         <Container>
             <br />
             <br />
@@ -38,7 +38,7 @@ function Caratteristica(caratteristica) {
                     component="div"
                     sx={{ color: 'text.secondary' }}
                 >
-                    <ReactMarkdown>{caratteristica.descrizione}</ReactMarkdown>
+                    {caratteristica.descrizione}
                     
                 </Typography>
             </CardContent>
