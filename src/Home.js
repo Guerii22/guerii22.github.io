@@ -48,24 +48,23 @@ function Home({ setLocation }) {
                     Il gioco si basa interamente e si sviluppa in parallelo al
                     capolavoro di Miguel de Cervantes, scritto nel
                     ‘600,conosciuto come uno dei romanzi più famosi della storia
-                    della letteratura: Don Chisciotte della Mancia. Il racconto
+                    della letteratura: Don Chisciotte della Mancia.Il racconto
                     narra la vicenda di Don Chisciotte, un uomo che per colpa
                     della passione per i racconti cavallereschi, perde il
                     contatto con il mondo reale e decide di vivere secondo gli
-                    antichi valori della cavalleria ( giustizia, onore e difesa
-                    dei deboli ) in un mondo che ormai non crede più in questi
+                    antichi valori della cavalleria (giustizia, onore e difesa
+                    dei deboli) in un mondo che ormai non crede più in questi
                     principi.Accanto a lui c’è Sancho Panza, il suo scudiero,
-                    che rappresenta la voce della ragione. Attraverso la sua
+                    che rappresenta la voce della ragione.Attraverso la sua
                     pazzia, le sue speranze e le sue sconfitte, l’autore mette
                     in risalto il parallelismo tra sogno e realtà, facendoci
                     capire che i sogni, anche se ti fanno sembrare pazzo agli
                     occhi degli altri, sono il motivo per cui vale la pena
-                    lottare. Il gioco riprende e rielabora le avventure, secondo
-                    noi, più significative vissute da Don Chisciotte,
-                    dividendole in tre livelli che raccontano i momenti più
-                    famosi del romanzo: La serata al bordello con Dulcinea Lo
-                    scontro con le pecore La lotta contro i mulini a vento, la
-                    più famosa vicenda
+                    lottare. Il gioco riprende le avventure, secondo noi, più
+                    significative vissute da Don Chisciotte, dividendole in tre
+                    livelli che raccontano i momenti più famosi del romanzo: La
+                    serata al bordello con Dulcinea,Lo scontro con le pecore,La
+                    lotta contro i mulini a vento.
                   </Typography>
                 </Stack>
               </Card>
@@ -89,24 +88,26 @@ function Home({ setLocation }) {
                 </Typography>
                 <br />
                 <Typography fontFamily="sans-serif">
-                  Don Chisciotte, ormai completamente immerso nei suoi sogni da
-                  cavaliere, arriva con il suo scudiero Sancho Panza davanti a
-                  quello che, secondo lui, è un luogo pieno di pericoli: un
-                  bordello. Per il cavaliere, che vede solo la realtà delle sue
-                  fantasie, questo posto non è altro che un covo di cattivi e
-                  buoni da essere salvati. Don Chisciotte lo immagina come un
-                  nascondiglio di ingiustizie, dove donne innocenti sono
-                  trattate male e devono essere protette. Non appena entra, il
-                  cavaliere pensa di dover difendere delle donne in pericolo,
-                  trasformando quello che è un semplice bordello in una scena di
-                  battaglia. La sua mente è talmente distorta che non vede la
-                  realtà, e per lui, le donne che si trovano lì sono principesse
-                  prigioniere, vittime di uomini cattivi. Senza pensarci due
-                  volte, Don Chisciotte si prepara a combattere contro chiunque
-                  gli sembri un nemico per difendere l'onore e la dignità di
-                  quelle che lui vede come innocenti. Sancho Panza, che capisce
-                  benissimo la realtà, cerca di far ragionare il suo padrone, ma
-                  Don Chisciotte non ne vuole sapere.
+                  Dove si trova nella storia: È il primo livello Come si vince:
+                  Si sconfiggono tutti i nemici Come si perde: Se la barra della
+                  salute va a zero Nel romanzo:Don Chisciotte,immerso nei suoi
+                  sogni cavallereschi, si trova insieme a Sancho Panza davanti a
+                  quello che secondo lui è un posto pieno di pericoli, un
+                  bordello. Don Chisciotte lo immagina come un castello, e le
+                  donne che vi lavorano per nobili dame (erano prostitute tra le
+                  quali incontra la sua amata Dulcinea);ALL’entrata in questo
+                  bordello Don Chisciotte , saluta con grande rispetto le due
+                  prostitute all’ingresso,durante la notte, chiede all’oste di
+                  nominarlo cavaliere e Senza pensarci due volte, Don Chisciotte
+                  si prepara a combattere contro chiunque gli sembri un nemico,
+                  per difendere l'onore e la dignità di quelle che lui vede come
+                  innocenti.Sancho Panza, che capisce benissimo come stanno le
+                  cose, cerca di far ragionare il suo padrone, ma Don Chisciotte
+                  non ne vuole sapere. Nel gioco: Si entra nella locanda e si
+                  devono sconfiggere tutti i nemici attivi e passivi grazie
+                  anche all'aiuto del nostro scudiero sancho panza e se lo
+                  faremo senza morire otterremo in ricompensa l’amata dulcinea
+                  che ci aiuterà a vincere le prossime battaglie
                 </Typography>
               </Box>
               <img alt="" width="30%" src="/sfondo_levels.png" />
@@ -135,22 +136,25 @@ function Home({ setLocation }) {
                 </Typography>
                 <br />
                 <Typography textAlign="right" fontFamily="sans-serif">
-                  Don Chisciotte e Sancho si imbattono in un gruppo di pecore
-                  che stanno tranquillamente pascolando, Don Chisciotte vede
-                  solo nemici. Lui vede quelle pecore come soldati di un
-                  esercito pronto a invadere il suo regno immaginario, e lui,
-                  come sempre, deve combattere il male. Don Chisciotte si lancia
-                  contro le pecore, pronto a sconfiggere l'armata nemica e il
-                  male.Sancho, divertito e preoccupato, cerca di fermarlo, ma il
-                  cavaliere è troppo preso dalle sue allucinazioni. Per lui,
-                  ogni battaglia è una questione di onore, e non importa che si
-                  tratti di un branco di pecore inoffensive. Quando le pecore,
-                  spaventate, si disperdono nel campo, Don Chisciotte si sente
-                  come un eroe che ha appena vinto una grande battaglia, anche
-                  se, in realtà, non c'era nessun nemico da sconfiggere. Sancho
-                  non può fare a meno di ridere della situazione, ma cerca di
-                  non farlo vedere, mentre cerca di riportare il suo padrone
-                  alla realtà.
+                  Dove si trova nella storia: Secondo livello Come si vince: Si
+                  fanno scappare tutte le pecore/nemici Come si perde: Se la
+                  barra della salute va a zero Nel romanzo: La vicenda delle
+                  pecore e dei pastori è uno degli episodi più famosi del
+                  romanzo.Don Chisciotte e Sancho Panza stanno viaggiando quando
+                  vedono una grande nuvola di polvere. Il cavaliere, convinto
+                  che si tratti di eserciti che stanno per combattere immagina
+                  la vicenda come in un racconto cavalleresco. In realtà, quella
+                  polvere è sollevata da greggi di pecore con i pastori.Don
+                  Chisciotte però abbassa la lancia e va all’attacco, credendo
+                  di combattere in una grande guerra. I pastori, vedendolo
+                  colpire i loro animali, cercano di fermarlo e gli tirano
+                  pietre, ferendolo e facendolo cadere da cavallo.Quando Sancho
+                  gli fa notare che ha solo attaccato delle pecore, Don
+                  Chisciotte non ci crede Nel gioco: ci ritroveremo in un'ampia
+                  area aperta con nemici passivi(ovvero le pecore) che
+                  ostruiranno in nostro passaggio e nemici attivi(i pastori),che
+                  ci attaccheranno, l'obiettivo sarà riuscire a eliminare il
+                  gregge e i rispettivi pastori nel minor tempo possibile.
                 </Typography>
               </Box>
               <img
@@ -190,22 +194,22 @@ function Home({ setLocation }) {
               </Typography>
               <br />
               <Typography fontFamily="sans-serif">
-                Don Chisciotte e il suo fido scudiero si imbattono in uno dei
-                momenti più celebri e drammatici del loro viaggio: i mulini a
-                vento. Quello che per qualsiasi persona sarebbe stato un
-                semplice campo con delle strutture utili per macinare il grano,
-                per Don Chisciotte sono enormi mostri di acciaio e pietra,
-                nemici malvagi pronti a distruggere il regno che lui crede di
-                dover proteggere. Senza esitazione, Don Chisciotte decide di
-                affrontarli. Con la sua spada sguainata e il cuore gonfio di
-                coraggio, si lancia all'attacco, convinto che quei mulini siano
-                enormi giganti da sconfiggere, come nelle più belle leggende di
-                cavalleria. Sancho, che conosce la realtà, cerca di fermarlo,
-                spiegandogli che non sono mostri, ma semplici mulini a vento, ma
-                Don Chisciotte è troppo preso dalla sua visione eroica per
-                ascoltarlo. E così, il cavaliere si getta contro il primo
-                "gigante" con tutta la forza che ha, finendo però travolto e
-                ridotto in polvere dalla girante del mulino.
+                Dove si trova nella storia: Livello finale Come si vince: Si
+                sconfigge il mulino a vento (boss finale) Come si perde: Se la
+                barra della salute va a zero Nel romanzo: Don Chisciotte e il
+                suo fedele scudiero stanno attraversando una pianura della
+                regione della Mancia in Spagna,quando la lontananza appaiono dei
+                mulini a vento che Don Chisciotte, però, li scambia per giganti
+                con lunghe braccia e decide di sfidarli per dimostrare il suo
+                coraggio e compiere un’impresa da vero cavaliere. Sancho cerca
+                di fargli capire che non si tratta di giganti, ma di mulini
+                mossi dal vento, ma il cavaliere non gli crede e si butta
+                all’attacco con la lancia. Quando colpisce la pala di un mulino,
+                questa gira con forza, spezza la sua arma e lo scaraventa a
+                terra insieme a Ronzinante. Nel gioco:Il nostro eroe affronterà
+                un possente mulino a vento con un’ampia barra della vita e se
+                riuscirà a sconfiggerlo riuscirà a terminare il gioco e gli
+                spetteranno moltissime ricompense.
               </Typography>
             </Container>
           </Box>

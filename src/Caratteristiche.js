@@ -38,7 +38,8 @@ function Caratteristica(caratteristica) {
                     component="div"
                     sx={{ color: 'text.secondary' }}
                 >
-                    {caratteristica.descrizione}
+                    <ReactMarkdown>{caratteristica.descrizione}</ReactMarkdown>
+                    
                 </Typography>
             </CardContent>
         </Box>

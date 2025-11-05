@@ -2,12 +2,12 @@
   {
     "nome": "Don Chisciotte",
     "sprite": "/don_chisciotte.png",
-    "descrizione": "Don Chisciotte è un nobile di campagna, un povero, che vive nella Mancia e passa le sue giornate a leggere storie di cavalieri. Legge così tanto che alla fine impazzisce e si convince che la sua missione sia quella di portare la giustizia nel mondo e far tornare di moda i vecchi valori cavallereschi. Peccato che il mondo intorno a lui non sia per niente come se lo immagina lui. La sua testa è così piena di follia che vede pericoli e mostri dove non ci sono. L'abbiamo scelto perchè è il personaggio principale della nostra vicenda,colui che combatte e affronta i nemici."
+    "descrizione": "È il nostro eroe, ed è l'unico personaggio con il quale si può effettivamente giocare.Don Chisciotte è un nobile di campagna, un povero, che vive nella Mancia e passa le sue giornate a leggere storie di cavalieri. Legge così tanto che alla fine impazzisce e si convince che la sua missione sia quella di portare la giustizia nel mondo e far tornare di moda i vecchi valori cavallereschi. Purtroppo per lui il mondo intorno non è per niente come lo immagina. Ha letto così tanti libri di cavalleria da essersi completamente perso nella sua fantasia  vedendo avversari e cattivi ovunque. \n L'abbiamo scelto perchè è il personaggio principale della nostra vicenda,colui che combatte e affronta i nemici."
   },
   {
     "nome": "Sancho Panza",
     "sprite": "/sancho.png",
-    "descrizione": "Sancho cerca di far ragionare Don Chisciotte con il suo buon senso, ma finisce sempre per farsi trascinare nel mondo pazzo del suo padrone. A volte ci casca anche lui e vede le stesse illusioni, altre volte invece è l'unico che ha ancora i piedi per terra. L'abbiamo scelto come “Oggetto utilizzabile” che fornisce suggerimenti al nostro protagonista perché nella storia è colui che cerca di far ragionare il cavaliere."
+    "descrizione": "È lo scudiero fedele di Don Chisciotte. Noi l'abbiamo fatto come un vero e proprio aiutante che dà consigli per superare i livelli.Sancho cerca di far ragionare Don Chisciotte con il suo buon senso, ma finisce sempre per farsi trascinare nel mondo pazzo del suo padrone. A volte ci casca anche lui e vede le stesse illusioni, altre volte invece è l'unico che ha ancora i piedi per terra. \n L'abbiamo scelto come “Oggetto utilizzabile” che fornisce suggerimenti al nostro protagonista perché nella storia è colui che cerca di far ragionare il cavaliere. "
   },
   {
     "nome": "Nemico Aggressivo",
