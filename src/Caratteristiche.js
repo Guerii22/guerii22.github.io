@@ -1,4 +1,4 @@
-import { Box, Card, CardContent, CardMedia, Container, Typography } from "@mui/material";
+import { Box, Card, CardContent, Container, Typography } from "@mui/material";
 import { Masonry } from '@mui/lab'
 import { useState } from "react";
 import Tilt from 'react-parallax-tilt';
@@ -19,7 +19,7 @@ export function Caratteristiche() {
                 {CaratteristicheList.map((personaggio, index) => <Caratteristica {...personaggio} index={index} />)}
             </Masonry>
         </Container>
-    </Box>
+    </Bo>x>
     
 }
 
