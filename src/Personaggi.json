@@ -10,7 +10,7 @@
     "descrizione": "È lo scudiero fedele di Don Chisciotte. Noi l'abbiamo fatto come un vero e proprio aiutante che dà consigli per superare i livelli. Sancho cerca di far ragionare Don Chisciotte con il suo buon senso, ma finisce sempre per farsi trascinare nel mondo pazzo del suo padrone. A volte ci casca anche lui e vede le stesse illusioni, altre volte invece è l'unico che ha ancora i piedi per terra. <br> <br> L'abbiamo scelto come “Oggetto utilizzabile” che fornisce suggerimenti al nostro protagonista perché nella storia è colui che cerca di far ragionare il cavaliere. "
   },
   {
-    "nome": "Nemico Agressivo",
+    "nome": "Nemico Aggressivo",
     "sprite": "/nemico_aggressivo.png",
     "descrizione": "Nel secondo livello, sono pecore e pastori che Don Chisciotte trasforma in soldati nemici. <br> <br> Li abbiamo fatti semplici, senza troppi dettagli, perché così ci si può concentrare sull'azione del gioco e poichè inoltre nella testa di Don Chisciotte i nemici sono più idee che persone vere."
   },

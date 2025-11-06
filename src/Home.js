@@ -226,7 +226,13 @@ function Home({ setLocation }) {
                 Nel gioco: Il nostro eroe affronterà un possente mulino a vento
                 con un’ampia barra della vita e se riuscirà a sconfiggerlo
                 riuscirà a terminare il gioco e gli spetteranno moltissime
-                ricompense
+                ricompense.
+                <br />
+                <br />
+                <br />
+                BHE ORA STA A TE ESSERE L’EROE CHE PUÒ CAMBIARE LA VICENDA E
+                PORTARE IL NOSTRO CAVALIERE E IL SUO FIDATO SCUDIERO A
+                CONFIGGERE QUEI MALVAGI MULINI METTITI IN GIOCO. PLAY THE GAME
               </Typography>
             </Container>
           </Box>

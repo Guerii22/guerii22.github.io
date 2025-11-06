@@ -21,7 +21,7 @@
   },
   {
     "nome": "Attacca Nemico",
-    "sprite": "/click1.png",
-    "descrizione": "Utilizza il tasto destro del mouse per attaccare."
+    "sprite": "/click.png",
+    "descrizione": "Utilizza il tasto sinistro del mouse per attaccare."
   }
 ]
