@@ -139,7 +139,7 @@ function Home({ setLocation }) {
                   >
                     II
                   </Typography>
-                  &nbsp;- Missione Pecorina
+                  &nbsp;- L’Assedio Lanoso
                 </Typography>
                 <br />
                 <Typography textAlign="right" fontFamily="sans-serif">
