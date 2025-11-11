@@ -1,14 +1,6 @@
 import { Hero } from "./Hero";
 import { Footer } from "./Footer";
-import {
-  Box,
-  Button,
-  Card,
-  Container,
-  Paper,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Box, Button, Card, Container, Paper, Stack, Typography } from "@mui/material";
 import Tilt from "react-parallax-tilt";
 
 import { ReactLenis, useLenis } from "lenis/react";

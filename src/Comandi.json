@@ -2,22 +2,22 @@
   {
     "nome": "Muoviti Avanti",
     "sprite": "/W.png",
-    "descrizione": "Utilizza il tasto 'W' per spostati in avanti."
+    "descrizione": "Utilizza il tasto 'W' per spostarti in avanti."
   },
   {
     "nome": "Muoviti Indietro",
     "sprite": "/S.png",
-    "descrizione": "Utilizza il tasto 'S' spostati in dietro."
+    "descrizione": "Utilizza il tasto 'S' per spostarti in dietro."
   },
   {
     "nome": "Muoviti a Destra",
     "sprite": "/D.png",
-    "descrizione": "Utilizza il tasto 'D' spostati a destra."
+    "descrizione": "Utilizza il tasto 'D' per spostarti a destra."
   },
   {
     "nome": "Muoviti a Sinistra",
     "sprite": "/A.png",
-    "descrizione": "Utilizza il tasto 'A' spostati a sinistra."
+    "descrizione": "Utilizza il tasto 'A' per spostarti a sinistra."
   },
   {
     "nome": "Attacca Nemico",
